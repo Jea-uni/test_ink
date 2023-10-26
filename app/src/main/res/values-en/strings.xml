@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test_ink</string>
+    <string name="name_tattoo">Name</string>
+    <string name="ig_tattoo">Instagram</string>
+    <string name="tattoo_style">"Styles : "</string>
+    <string name="tattoo_studi">"Studios : "</string>
+</resources>

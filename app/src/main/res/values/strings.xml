@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">test_ink</string>
+    <string name="name_tattoo">Nome</string>
+    <string name="ig_tattoo">Instagram</string>
+    <string name="tattoo_style">Stili : </string>
+    <string name="tattoo_studi">Studi : </string>
+    <string-array name="studi_nomi">
+        <item>- Shaderland tattoo</item>
+    </string-array>
+    <string-array name="stili_nomi">
+        <item>- Linee fini</item>
+        <item>- Blackwork</item>
+    </string-array>
+
+</resources>
