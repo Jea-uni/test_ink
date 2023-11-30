@@ -2,14 +2,11 @@ package com.example.test_ink
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.ContactsContract.Data
 import android.webkit.WebView
-import android.widget.ArrayAdapter
-import android.widget.ListView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class FrameTattuatoreActivity : AppCompatActivity() {
 
     private lateinit var recyclerViewStudi: RecyclerView
     private lateinit var dataStudi: ArrayList<DataClass>
@@ -21,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.frame_tattuatore)
 
         stiliList = resources.getStringArray(R.array.stili_nomi)
         studiList = resources.getStringArray(R.array.studi_nomi)
